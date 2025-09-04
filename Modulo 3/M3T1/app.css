@@ -1,0 +1,34 @@
+main{
+  background-color: rgb(160, 255, 242);
+  padding: 10px;
+  border-radius: 10px;
+  min-width: 500px;
+}
+
+#box-container{
+  display: grid;
+  min-width: 400px;
+  grid-template-columns: repeat(10, minmax(7%, 12%));
+  grid-auto-rows: fit-content(10%);
+  grid-gap: 5px;
+  border-radius: 10px;
+}
+
+.box{
+    background: rgb(184, 255, 184);
+    height:50px;
+    width:50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+button{
+    width: 100px;
+    margin: auto;
+    display: inline;
+    vertical-align: middle;
+    padding-inline: 10px;
+    margin-inline: 10px;
+}

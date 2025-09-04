@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "username": "alex",
+    "password": "test",
+    "email": "areks@geemail.com"
+  },
+  {
+    "id": 2,
+    "username": "ark",
+    "password": "tested",
+    "email": "areku@geemail.com"
+  }
+]

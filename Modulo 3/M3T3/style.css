@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(40, 41, 75);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.header-container{
+    background: rgba(135, 138, 209, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.app-container{
+    background: rgba(135, 138, 209, 0.5);
+    width: 75vh;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px;
+    min-height: max-content;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.JSONbutton{
+    height: 30px;
+    width: 25%;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 10px;
+    background: rgba(190, 192, 255, 0.5);
+    color: rgb(40, 41, 75);
+    transition: 0.3s;
+}
+
+.JSONbutton:hover{
+    background: rgb(40, 41, 75);
+    color: rgb(190, 192, 255);
+}
+
+.output-container{
+    display: grid;
+    margin-top: 20px;
+    height: 33%;
+    padding: 20px;
+    background: rgba(190, 192, 255, 0.5);
+    border-radius: 10px;
+    grid-template-rows: repeat(4, 1fr);
+    &:is(#title-container){
+        height: 55px;
+    }
+}
+
+
+.p-label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-style: solid;
+    border-color: rgb(40, 41, 75);
+    border-radius: 10px;
+    grid-row: 1/2;
+}
+
+.JSON-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-style: solid;
+    border-color: rgb(40, 41, 75);
+    border-radius: 10px;
+    grid-row: 2/5;
+    
+    &:is(#JSONtitle){
+        height: 35px;
+    }
+}
+
+#JSONdesc{
+    padding: 12px;
+}
+
+span{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-style: none;
+    height: fit-content;
+    background: rgb(40, 41, 75);
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+}

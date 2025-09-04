@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FP Landing</title>
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylegame.css">
+</head>
+
+<body>
+    <header>
+        <img src="lOGo.webp" alt="">
+        <h1>Landing Page/Index</h1>
+        <div class="button-container">
+            <button onclick="loginWindow()">Log in</button>
+        </div>
+    </header>
+    <main>
+        <h1 class="game-title">hey look a little game just for you :D</h1>
+        <canvas id="GameCanvas" width="480" height="320"></canvas>
+        <div class="title-container">
+            <h1 class="game-title">Crappy Breakout Clone (for testing)</h1>
+        </div>
+        <div class="game-button-container">
+            <button id="runButton">Start game</button>
+        </div>
+
+        <script src="game.js"></script>
+    </main>
+    <script>
+        function loginWindow() {
+            window.location.href = "login.html";
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="address-header">
+                <h1>IP Address Tracker</h1>
+            </div>
+        </header>
+        <div class="input-container">
+            <form class="address-input">
+                <input type="text" placeholder="Search for any IP address or domain">
+                <button type="submit">&#10095</button>
+            </form>
+        </div>
+        <br>
+        <div class="output-container">
+            <div class="address-output">
+                <input id="address" type="text" readonly placeholder="IP Address">
+                <input id="location" type="text" readonly placeholder="Location">
+                <input id="timezone" type="text" readonly placeholder="Timezone">
+                <input id="isp" type="text" readonly placeholder="ISP">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <img src="Manny.webp" alt="cmamut xd">
+        </div>
+    </footer>
+
+</body>
+<script src="app.js"></script>
+
+</html>

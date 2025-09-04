@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#CustomHeader{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#CustomFooter{
+    font-size: x-small;
+}
+
+q{
+    font-weight: bold;
+    color: aqua;
+    font-style: italic;
+}
+
+#CustomThing{
+    font-size: 65px;
+}
+
+h2{
+    font-size: x-large;
+}
+
+li{
+    font-weight: bold;
+}
+
+.content{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: small;
+}
