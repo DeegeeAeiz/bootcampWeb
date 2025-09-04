@@ -1,0 +1,22 @@
+body {
+    background: black;
+}
+
+.p {
+    border-radius: 5px;
+    padding: 10px 15px;
+    font: 500;
+    font-family: monospace;
+    color: white;
+}
+
+.p--back{
+    background: purple linear-gradient(#ff8080, #25023d);
+}
+
+.p--back-clip{
+    background: purple linear-gradient(#ff8080, #25023d);
+    color: transparent;
+    background-clip: text;
+}
+

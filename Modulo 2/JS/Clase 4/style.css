@@ -1,0 +1,44 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+
+}
+
+#imageInput{
+    margin-bottom: 20px;
+}
+
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+#gallery img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#gallery img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 120px rgba(0, 0, 0, 0.5);
+}
+
+#gallery img.zoomed{
+    transform:scale(2);
+    z-index: 2;
+    position: relative;
+}

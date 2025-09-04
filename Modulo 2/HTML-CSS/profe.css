@@ -1,0 +1,47 @@
+.card{
+    border-radius: 3px;
+    border: 1px solid #5f5f5f;
+    font-family: 'Helvetica';
+    color: #3f3f3f;
+    width: 200px;
+    align-content: center;
+}
+
+.card__title{
+    font-size: 18px;
+}
+
+.card__text{
+    font-size: 10px;
+}
+
+.card__price{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.card__price__clicked:active{
+    background-color: black;
+}
+
+.card__buton-add{
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(17, 163, 21, 0.819);
+    font-size: 10px;
+    width: 50px;
+}
+
+.card__buton-add--added:active{
+    background-color: crimson;
+}
+
+
+.div1{
+    background-color: #3f3f3f;
+    color: white;
+}
+
+#divSolo{
+    background-color: aqua;
+}

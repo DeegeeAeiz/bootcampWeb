@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+
+    <header>
+        <p class="header-text">JSONplaceholder Testing</p>
+    </header>
+
+    <main>
+        <div class="button-container">
+            <div class="button-back">
+                <button type="submit" class="get-button" onmousedown="printUserdata()">GET Users</button>
+            </div>
+        </div>
+
+        <div class="text-container">
+            <p class="get-text"></p>
+        </div>
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+*  {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(0, 0, 84);
+}
+
+canvas{
+    background-image: url("space.webp");
+    display: block;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: rgb(63, 63, 254);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.title-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.game-title{
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS';
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+button{
+    width: 200px;
+    height: 100px;
+    border-style: solid;
+    border-color: rgb(63, 63, 254);
+    border-width: 2px;
+    border-radius: 10px;
+    color: rgb(63, 63, 254);
+    background: black;
+    font-size: x-large;
+    font-family: 'Trebuchet MS';
+    transition: 0.2s;
+}
+
+button:hover{
+    border-color: black;
+    color: black;
+    background: rgb(63, 63, 254);
+}

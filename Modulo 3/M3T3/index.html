@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            JSONplaceholder Visualizer
+        </div>
+    </header>
+    <main>
+        <div class="app-container">
+            <div class="button-container">
+                <button onclick="GeneratePlaceholder()" class="JSONbutton">Generate!</button>
+            </div>
+            <div class="output-container" id="title-container">
+                <p class="p-label">
+                    Title
+                </p>
+                <p id="JSONtitle" class="JSON-content">
+                    Click <span>Generate!</span> to obtain a title
+                </p>
+            </div>
+
+            <div class="output-container" id="desc-container">
+                <p class="p-label">
+                    Description
+                </p>
+                <p id="JSONdesc" class="JSON-content">
+                    Click <span>Generate!</span> to obtain a description
+                </p>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>

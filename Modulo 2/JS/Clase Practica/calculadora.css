@@ -1,0 +1,90 @@
+body{
+    background: black;
+}
+
+.calculadora--outer{
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(151, 21, 129);
+    border-radius: 15px;
+}
+
+.calculadora{
+    display: flex;
+    background-color: rgb(0, 204, 255);
+    /* min-width: 100px;
+    max-width: 600px; */
+    min-height: 400px;
+    max-height: 600px;
+    border-radius: 10px;
+    border: 100px;
+    margin: 10px;
+    padding: 20px;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 10px;
+}
+
+.calculadora--inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    min-width: 50px;
+    font-weight: bold;
+    border-style: none;
+    
+    /* TEXTBOX */
+    &:nth-child(1){
+        grid-row: 1/2 ;
+        grid-column:1/4 ;
+    }
+
+    &:not(label){
+        transition-duration: 0.3s;
+    }
+
+    &:not(label):hover{
+        background-color: rgb(255, 100, 230);
+        color: black;
+    }
+
+
+    &:nth-child(2):hover{
+        background-color: red;
+        color: white;
+    }
+
+    &:nth-child(6):hover{
+        background-color: chartreuse;
+        color: black;
+    }
+
+    &:nth-child(10):hover{
+        background-color: chartreuse;
+        color: black;
+    }
+
+    &:nth-child(14):hover{
+        background-color: chartreuse;
+        color: black;
+    }    
+    
+    &:nth-child(17):hover{
+        background-color: rgb(0, 0, 255);
+        color: white;
+    } 
+    
+    &:nth-child(18):hover{
+        background-color: chartreuse;
+        color: black;
+    }
+}
+

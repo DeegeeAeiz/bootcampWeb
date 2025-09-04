@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FP App</title>
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="lOGo.webp" alt="">
+        <h1>GET & POST Test App</h1>
+    </header>
+
+    <main>
+        <h2 class="app-title">
+            JSONplaceholder TestApp
+        </h2>
+        <div class="app-container">
+            <div class="get-container">
+                <div class="get-data-container">
+                    <p class="get-data" id="name-data">Name</p>
+                    <p class="get-data" id="username-data">Username</p>
+                    <p class="get-data" id="email-data">Email</p>
+                </div>
+
+                <button onclick="randomUser()" class="get-button">GET random user</button>
+            </div>
+            <div class="post-container">
+                <form id="post-form">
+                    <div class="form-field">
+                        <label for="name" class="form-label"></label>
+                        <input type="text" id="name-input" class="form-input" placeholder="Name">
+                    </div>
+                    <div class="form-field">
+                        <label for="username" class="form-label"></label>
+                        <input type="text" id="username-input" class="form-input" placeholder="Username">
+                    </div>
+                    <div class="form-field">
+                        <label for="Email" class="form-label"></label>
+                        <input type="email" id="email-input" class="form-input" placeholder="example@ex.com">
+                    </div>
+                    <button type="submit" class="form-button-submit">POST</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="applet.js"></script>
+</body>
+
+</html>

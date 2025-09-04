@@ -1,0 +1,56 @@
+*  {
+    margin: 0;
+    padding: 0;
+    font-family: "Bebas Neue";
+}
+
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("BebasNeue-Regular.ttf") format("truetype");
+}
+
+canvas{
+    background-image: url("space.webp");
+    display: block;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: rgb(35, 114, 217);
+    border-radius: 10px;
+}
+
+.title-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.game-title{
+    color: rgb(35, 114, 217);
+    text-align: center;
+    font-size: xx-large;
+    padding: 20px;
+}
+
+.game-button-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+#runButton{
+    width: 200px;
+    height: 100px;
+    border-style: solid;
+    border-color: rgb(25, 25, 25);
+    border-width: 2px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background: rgb(35, 114, 217);
+    font-size: x-large;
+    transition: 0.2s;
+}
+
+#runButton:hover{
+    border-color: rgb(25, 25, 25);
+    background: rgb(25, 25, 25);
+}
